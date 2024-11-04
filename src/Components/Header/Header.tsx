@@ -8,11 +8,11 @@ export default function Header() {
         <div className='w-[242px] flex py-[11] items-center text-white px-7'>
           <h1>
             <Image
-             src={"/Images/Logo.png"}
+              src={"/Images/Logo.png"}
               alt='Logo Image'
-               height={70}
-                width={63} 
-                />
+              height={70}
+              width={63}
+            />
           </h1>
           <h1 className='w-[174px] h-[83px] flex items-center text-[50px]'>urity</h1>
         </div>
@@ -20,39 +20,39 @@ export default function Header() {
          hidden  bg-neutral-100 md:flex justify-between items-center'>
           <p className='text-sm '>Search for Gold Jewellery, Diamond Jewellery and more…</p>
           <p className='w-[21px] h-[21px] '>
-            <Image 
-            src={"/Images/search.png"}
-             alt='search-icons' 
-             height={19} 
-             width={19}
-              />
+            <Image
+              src={"/Images/search.png"}
+              alt='search-icons'
+              height={19}
+              width={19}
+            />
           </p>
         </div>
-      
+
         <div className='w-[177px] h-[30px]  top-13 ml-28'>
           <div className='flex gap-[38px]'>
             <p>
               <Image
-               src={"/Images/heart.png"}
-               alt='heart-icon' 
-               width={33}
+                src={"/Images/heart.png"}
+                alt='heart-icon'
+                width={33}
                 height={29}
-                 />
+              />
             </p>
             <p>
-              <Image 
-              src={"/Images/user.png"}
-               alt='user-icon' 
-               width={29} 
-               height={28} 
-               />
+              <Image
+                src={"/Images/user.png"}
+                alt='user-icon'
+                width={29}
+                height={28}
+              />
             </p> <p>
               <Image
-               src={"/Images/cart.png"}
+                src={"/Images/cart.png"}
                 alt='cart-icon'
-                 width={38}
-                  height={30}
-                   />
+                width={38}
+                height={30}
+              />
             </p>
 
           </div>
